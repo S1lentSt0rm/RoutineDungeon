@@ -20,6 +20,7 @@ public class scr_InputManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+
         playerInput = GetComponent<PlayerInput>();
         playerInput.actions.FindActionMap("Game").Enable();
         //playerInput.actions.FindActionMap("UI").Enable();

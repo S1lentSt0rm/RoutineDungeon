@@ -12,7 +12,7 @@ public class scr_PlayerMovement : MonoBehaviour
 
     scr_InputManager inputManager;
 
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
